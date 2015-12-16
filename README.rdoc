@@ -5,7 +5,7 @@ Numbers.tf is an app for viewing item statistics from the popular online game Te
 
 TODO:
 
-  [] Link Steam's TF2 item schema API
+  [x] Link Steam's TF2 item schema API
 
   [] Create an index page where items are broken up into sub-categories for filtration and ease of use
 

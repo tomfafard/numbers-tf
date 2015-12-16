@@ -1,15 +1,12 @@
-require "net/http"
-require "json"
-require "pry"
-require "dotenv-rails"
-
-@key = ENV["STEAM_API_KEY"]
-binding.pry
+# lib/tf_schema_api.rb
+require 'net/http'
+require 'json'
 
 class Items
 
   def initialize
-
+    @key = ENV["STEAM_API_KEY"]
+    binding.pry
     @items = get_items
   end
 
@@ -25,6 +22,3 @@ class Items
     URI("http://api.steampowered.com/IEconItems_440/GetSchema/v0001/?key=#{@key}")
   end
 end
-
-a_test = Items.new
-binding.pry

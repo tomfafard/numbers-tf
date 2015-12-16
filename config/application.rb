@@ -16,10 +16,12 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-Dotenv::Railtie.load
 
 module NumbersTf
   class Application < Rails::Application
+    # load everything in the 'lib' folder.
+    config.autoload_paths += Dir["#{config.root}/lib/**/"]
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
