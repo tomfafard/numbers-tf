@@ -2,12 +2,25 @@
 require 'net/http'
 require 'json'
 
-class Items
+class ItemSchema
 
   def initialize
     @key = ENV["STEAM_API_KEY"]
+    @items = get_items["result"]
     binding.pry
-    @items = get_items
+  end
+
+
+  def qualities
+    @items["qualities"]
+  end
+
+  def origins
+    @items["originNames"]
+  end
+
+  def itemNames
+    @items["items"]["name"]
   end
 
 
