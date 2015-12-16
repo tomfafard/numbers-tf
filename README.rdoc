@@ -5,12 +5,14 @@ Numbers.tf is an app for viewing item statistics for the popular online game Tea
 
 TODO:
 
+  [] Link Steam's TF2 item schema API
+
   [] Create an index page where items are broken up into sub-categories for filtration and ease of use
 
   [] Each sub-category has a show page of all the given items under said category
 
-  []
+  [] ..
 
-  []
+  [] ..
 
   [] User able to log in through Steam and view their own inventory and statistics for items they own
