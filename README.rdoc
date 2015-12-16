@@ -1,6 +1,6 @@
 == README
 
-Numbers.tf is an app for viewing item statistics for the popular online game Team Fortress 2.
+Numbers.tf is an app for viewing item statistics from the popular online game Team Fortress 2.
 
 
 TODO:
