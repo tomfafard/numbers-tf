@@ -1,0 +1,46 @@
+== README
+
+Numbers.tf is an app for viewing item statistics for the popular online game Team Fortress 2.
+
+
+TODO:
+
+  [] Create an index page where items are broken up into sub-categories for filtration and ease of use
+
+  [] Each sub-category has a show page of all the given items under said category
+
+  []
+
+  [] 
+
+  [] User able to log in through Steam and view their own inventory and statistics for items they own
+
+
+
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
